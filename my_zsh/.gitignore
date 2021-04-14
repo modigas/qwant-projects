@@ -1,0 +1,6 @@
+my_zsh
+*.o
+core.*
+test*
+*.out
+exe*

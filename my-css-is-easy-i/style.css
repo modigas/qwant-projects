@@ -1,0 +1,44 @@
+body {
+    width: 100%;
+}
+
+header {
+    background-color: #00B7EB;
+    padding: 30px;
+    margin: 10px;
+}
+
+.hero {
+    background-color: #FF0000;
+    padding: 30px;
+    margin: 10px;
+}
+
+@media screen and (min-width: 600px) {
+    .nav {
+        display: flex;
+    }
+}
+
+.nav .content {
+    flex: 1;
+    background-color: #00FF00;
+    padding: 30px;
+    margin: 10px;
+}
+
+.nav .sidebar {
+    flex: 0 1 50%;
+    background-color: #800080;
+    padding: 30px;
+    margin: 10px;
+    color: white;
+    
+}
+
+footer {
+    background-color: #444444;
+    padding: 30px;
+    margin: 10px;
+    color: white;
+}
